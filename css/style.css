@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+}
+
+#wrapper {
+	margin: 0 auto;
+}
+
+#title {
+	font-size: 50px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#start {
+	display: block;
+	width: 120px;
+	height: 50px;
+	margin: 30px auto 0 auto;
+	font-size: 30px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+}
+
+#start:hover {
+	color: #FFFFFF;
+	background-color: #2d7cfc;
+}
+
+#status {
+	text-align: center;
+	font-size: 45px;
+	color: #2d7cfc;
+}
+
+#canvas {
+	margin: 30px auto 0 auto;
+	border: 1px solid black;
+}
+
+.cross {
+	background: url("../images/x.png") no-repeat;
+	background-size: contain;
+}
+
+.circle {
+	background: url("../images/o.png") no-repeat;
+	background-size: contain;
+}
